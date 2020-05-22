@@ -4,7 +4,9 @@ const fs = require("fs");
 const html = fs.readFileSync("./index.html");
 
 http
-    .createServer((requiere, response) => {
+    .createServer((request, response) => {
+        const { url } = request;
+        console.log(url);
         response.writeHead(200, {"Content-Type": "text/html"});
         response.write(html);
         response.end();
