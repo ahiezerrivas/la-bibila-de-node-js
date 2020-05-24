@@ -1,21 +1,7 @@
 const express = require("express");
 const server = express();
+const { PORT } = require("./config");
 
-const fs = require("fs");
-
-const home = fs.readFileSync("./index.html");
-const about = fs.readFileSync("./about.html");
-
-server.get("/", getHomePage);
-
-server.get("/about", (req, res) => {
-    res.write(about);
+server.listen(PORT, () => {
+    console.log(`Àpplication running on PORT ${PORT}`);
 })
-
-server.listen(8080, () => {
-    console.log("Server is running on port " + 8080);
-})
-
-function getHomePage(req, res) {
-    return res.write(home);
-}
