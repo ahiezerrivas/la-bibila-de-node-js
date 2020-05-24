@@ -17,3 +17,9 @@ npm i dotenv
     y se modifica el archivo index.js
 //****************Video 57**************** //
 
+
+//****************Video **************** //
+instalar dentro de la carpeta BACKENDVSFRONTED/backend npm i cors express mongoose  
+    se crea el archivo con npm init
+	npm i -D dotenv nodemon
+	se crea el archivo .env
