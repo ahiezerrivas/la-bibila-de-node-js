@@ -1,6 +1,13 @@
 const server = require ("./server");
-const { PORT } = require("./config");
+const { PORT, MONGO_URI } = require("./config");
+const mongoose = rquire("mongoose");
 
-server.listen(PORT, () => {
-    console.log(`CodingApp Backend running on PORT ${PORT}`);
-})
+mongoose
+    .connect(MONGO_URI, { useNewUrlParser:true })
+    .then(() => {
+        server.listen(PORT, () => {
+            console.log(`CodingApp Backend running on PORT ${PORT}`);
+        });
+    })
+    .catch(console.log);
+
