@@ -16,7 +16,7 @@ export class TechnologiesComponent implements OnInit {
     this._httpService
       .getTechnologies()
       .subscribe((technologies: Technology[]) => {
-      this.technologies = technologies;
+      this.technologies = technologies["data"];
     });
   }
 
