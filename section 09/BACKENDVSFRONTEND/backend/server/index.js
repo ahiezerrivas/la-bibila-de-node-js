@@ -1,6 +1,6 @@
 const express = require("express");
 const server = express();
-cosnt cors = require("cors");
+const cors = require("cors");
 const { Technology } = require("../models");
 
 server.use(express.json());

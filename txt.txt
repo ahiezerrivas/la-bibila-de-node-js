@@ -1,23 +1,4 @@
 
-//****************Video 62**************** //
-instalar dentro de la carpeta BACKENDVSFRONTED/backend npm i cors express mongoose  
-    se crea el archivo con npm init
-	npm i -D dotenv nodemon
-	se crea el archivo .env
-//****************Video 62**************** //
-
-//****************Video 63**************** //
-Descargar los archivos assets
-	el img y el data.seeder.json y copiar la infromacion en el archivo que esta dentro de seeds 
-		
-//****************Video 63**************** //
-
-//****************Video 64**************** //
-Crear el archivo technology.model.js 
-	ejecutar npm run seed
-	Verificar en mongodb atlas
-//****************Video 64**************** //
-
 //****************Video 65**************** //
 Se modifica el archivo server/index.js
 //****************Video 65**************** //
