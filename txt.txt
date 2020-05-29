@@ -2,3 +2,5 @@
 ////////////////// Video 77 ///////////////////////
   Traer Jumbotron de Bootstrap y colocarlo en home.component.html
   
+  inizializar la API
+  
