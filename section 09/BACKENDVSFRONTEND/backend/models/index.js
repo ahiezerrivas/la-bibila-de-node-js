@@ -1,3 +1,3 @@
 module.exports = {
-    Technology: require("./technologiy.model")
+    Technology: require("./technology.model")
 }
