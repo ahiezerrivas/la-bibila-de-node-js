@@ -1,45 +1,4 @@
 
-//****************Video 65**************** //
-Se modifica el archivo server/index.js
-//****************Video 65**************** //
-
-//****************Video 68**************** //
-Descargar typeScript 
-	se crea la carpeta TS REVIEW y dentro de esta 01.TYPES
-		Crear con el comando tsc --init para empezar a crear las configuraciones de un proyecto en TypeScript
-		se crea el archivo index.ts 
-		ejecutar el comando tsc para convertir el archivo en javascript y correrlo con node index.js
-//****************Video 68**************** //
-
-//****************Video 69**************** //
-Dentro de la carpeta TS REVIEW se crea la carpeta 02.Functions
-	se crea el archivo index.ts 
-		ejecutar el comando tsc para convertir el archivo en javascript y correrlo con node index.js
-
-//****************Video 69**************** //
-
-
-//****************Video 70**************** //
-Dentro de la carpeta TS REVIEW se crea la carpeta 03.Interfaces
-	se crea el archivo index.ts 
-//****************Video 70**************** //
-
-//****************Video 71**************** //
-Dentro de la carpeta TS REVIEW se crea la carpeta 04.Classes
-	Crear con el comando tsc --init para empezar a crear las configuraciones de un proyecto en TypeScript
-	se crea el archivo index.ts 
-	ejecutar el comando tsc para convertir el archivo en javascript y correrlo con node index.js
-//****************Video 71**************** //
-
-//****************Video 72**************** //
-
-Dentro de la carpeta TS REVIEW se crea la carpeta 04.Classes
-	Crear con el comando tsc --init para empezar a crear las configuraciones de un proyecto en TypeScript
-	se crea el archivo index.ts 
-	en el archivo tsconfig descomenta "experimentalDecorators"
-	ejecutar el comando tsc  aunque diga el editor de codigo que hay errores para convertir el archivo en javascript y correrlo con node index.js
-//****************Video 72**************** //
-
 //****************Video 73**************** //
 en la carpeta de backendvsfronend ejecutar el comando ng new frontend 
 	routing y
