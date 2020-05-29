@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Technology } from 'src/app/models/technology.model";
 
 @Component({
   selector: 'app-technology-card',
