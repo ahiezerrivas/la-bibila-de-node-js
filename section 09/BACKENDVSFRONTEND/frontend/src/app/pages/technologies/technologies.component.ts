@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from 'src/app/services/http.service';
 
 @Component({
   selector: 'app-technologies',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./technologies.component.css']
 })
 export class TechnologiesComponent implements OnInit {
-
-  constructor() { }
+  public technologies: Technology[];
+  
+  constructor(public _httpService: HttpService) { }
 
   ngOnInit(): void {
   }
