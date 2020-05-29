@@ -1,22 +1,3 @@
-//****************Video 56**************** //
-crear un cluster en mongodbatlas free
-    usar azure 
-        virginia
-
-npm i mongoose 
-npm i node-cron axios cheerio
-
-ejecutar node index 
-
-//****************Video 56**************** //
-
-//****************Video 57**************** //
-npm i dotenv
-
-    Se crea el archivo .env en donde va la clave de mongodb atlas, se crea la carpeta models
-    y se modifica el archivo index.js
-//****************Video 57**************** //
-
 
 //****************Video 62**************** //
 instalar dentro de la carpeta BACKENDVSFRONTED/backend npm i cors express mongoose  

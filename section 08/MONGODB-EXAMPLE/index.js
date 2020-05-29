@@ -4,10 +4,10 @@ const axios = require("axios").default;
 const cheerio = require("cheerio");
 const cron = require("node-cron");
 
-mongoose.connect(MONGO_URI, { useNewUrlParsser: true });
+mongoose.connect(MONGO_URI, { useNewUrlParser: true,  useUnifiedTopology: true  });
 const { BreakingNew } = require("./models");
 
-cron.shecule("* * * * * *", async () => {
+cron.schedule("* * * * * *", async () => {
 
     const html = await axios.get("https://cnnespanol.cnn.com");
     const $ = cheerio.load(html.data);
@@ -18,7 +18,7 @@ cron.shecule("* * * * * *", async () => {
                 .text()
                 .toString(),
             link: $(element)
-                .childre()
+                .children()
                 .attr("href")
         };
 
