@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Technology } from '../models/technology.model';
-import { environment } from 'src/environments/enviroment';
+import { environment } from "src/environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class HttpService {
+  private baseUrl: string = environment.BASE_API_URL;
 
   constructor(private readonly _http: HttpClient) { }
   
