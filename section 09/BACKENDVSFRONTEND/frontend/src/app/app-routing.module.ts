@@ -26,7 +26,7 @@ const routes: Routes = [
     component: TechnologyComponent
   },
   {
-    path: "search/query",
+    path: "search/:query",
     component: SearchComponent
   },
   {
